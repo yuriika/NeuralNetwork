@@ -1,6 +1,6 @@
-﻿namespace NeuralNetwork
+﻿namespace NeuralNetwork.Perceptron_
 {
-    internal class Perceptron
+    public class Perceptron
     {
         public Perceptron(int numberOfInputs)
         {

@@ -1,10 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeuralNetwork;
+using NeuralNetwork.Perceptron_;
+using NeuralNetwork.Testings;
 
-Console.WriteLine("Hello, World!");
+//Test.TestLogicalOr();
+//TestTraining.TestTrainingBounce();
 
-Test.TestLogicalOr();
+Test_SimpleNetwork.Test_SimpleNetwork_1();
+
+//Console.WriteLine("Hello, World!");
+
+//Console.ReadLine();
 
 static class Test
 {
